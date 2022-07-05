@@ -1,0 +1,14 @@
+.flex-dashboard header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #f8ff78;
+    border: #20c3f5;
+    padding: 0 30px;
+}
+.flex-dashboard header a{
+    text-decoration: none ;
+    color: blue;
+}

@@ -1,0 +1,60 @@
+div.flex-dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+}
+sidebar {
+    display: block;
+    height: 100%;
+    width: 220px;
+    background-color: rgb(101, 221, 236);
+}
+
+sidebar .sidebar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  10 30px;
+}
+
+sidebar .sidebar-title img {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+}
+sidebar .sidebar-title h2 {
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+div.menu {
+    border-right: 1px solid #20c3f5;
+    
+}
+div.menu ul {
+    list-style-type: none;
+
+}
+
+div.menu ul li {
+    padding: 20  0px;
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+
+}
+div.menu ul li a { 
+    color: mediumblue;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+div.menu ul li a:hover {
+    color: white;
+}
